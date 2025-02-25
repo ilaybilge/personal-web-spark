@@ -4,13 +4,19 @@ import { Sun, Moon, Github, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true); // Changed default to true
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 200);
     };
+
+    // Check system time and set theme accordingly
+    const currentHour = new Date().getHours();
+    const shouldBeDark = currentHour < 6 || currentHour >= 18; // Dark mode between 6 PM and 6 AM
+    setIsDark(shouldBeDark);
+    document.documentElement.classList.toggle("dark", shouldBeDark);
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
