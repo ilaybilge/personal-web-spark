@@ -11,15 +11,15 @@ const Index = () => {
         <div className="text-center space-y-6">
           <div className="relative mx-auto w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/20 hover:ring-primary/40 transition-all duration-300">
             <img
-              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
-              alt="Profile"
+              src="/logo-ilay-bilge.png"
+              alt="IlayBilge"
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
             />
           </div>
-          <h1 className="text-4xl font-bold animate-fade-in">Merhaba!</h1>
+          <h1 className="text-4xl font-bold animate-fade-in">Ilay Bilge</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in">
-            Ben bir yazılım geliştiriciyim ve web teknolojileri konusunda tutkuluyum.
-            Modern ve kullanıcı dostu arayüzler geliştirmeye odaklanıyorum.
+            🐘 Ar.io Gateaways Operator, ⚙️ Node Runner, 💻 Tester, <br />
+            ⛓️ Blockchain Enthusiast, 🖼️ NFT Collector.
           </p>
         </div>
         
@@ -27,28 +27,18 @@ const Index = () => {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Code className="w-5 h-5" />
-              Hakkımda
+              About
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <p>
-              5 yıllık deneyimim boyunca, çeşitli web teknolojileri ve frameworkler ile
-              çalıştım. Özellikle React, TypeScript ve modern frontend teknolojileri
-              konusunda uzmanlık sahibiyim.
+            Hello, I’m Ilay Bilge. I have been following blockchain and Web3 projects since 2022, actively participating in their testnets. So far, I have operated various nodes and contributed to platform testing, and I continue to do so. Most recently, I had the opportunity to join the Ar.io Network as a grateful operator.
+
             </p>
             <p>
-              Sürekli öğrenmeye ve kendimi geliştirmeye odaklanıyorum. Yeni
-              teknolojileri takip ediyor ve projelerimde en iyi pratikleri
-              uygulamaya çalışıyorum.
+            I am passionate about contributing to the development of blockchain technology and experiencing its evolution firsthand. I look forward to continuing my journey in this space.
+
             </p>
-            <div className="flex flex-wrap gap-2 pt-4">
-              <Badge variant="secondary">React</Badge>
-              <Badge variant="secondary">TypeScript</Badge>
-              <Badge variant="secondary">Next.js</Badge>
-              <Badge variant="secondary">Tailwind CSS</Badge>
-              <Badge variant="secondary">Node.js</Badge>
-              <Badge variant="secondary">GraphQL</Badge>
-            </div>
           </CardContent>
         </Card>
       </section>
@@ -56,41 +46,42 @@ const Index = () => {
       <section id="tecrubeler" className="py-16 space-y-8">
         <h2 className="text-3xl font-bold text-center flex items-center justify-center gap-2">
           <Briefcase className="w-6 h-6" />
-          Tecrübeler
+          Experiences
         </h2>
         <div className="grid gap-6 md:grid-cols-2">
           <Card className="glass hover:scale-105 transition-all duration-300">
             <CardHeader>
-              <CardTitle>Kıdemli Frontend Geliştirici</CardTitle>
+              <CardTitle>🐘 ARIO Gateaway Operator</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground mb-4">2020 - Günümüz</p>
+              <p className="text-sm text-muted-foreground mb-4">2024 - Present</p>
               <p>
-                Modern web uygulamaları geliştirme, performans optimizasyonu,
-                kod kalitesi ve takım liderliği konularında aktif rol aldım.
+                After participating in its testnet, I became eligible to transition to the mainnet and now operate a node as an operator.
+                <br /><br />
+                If you want to delegate your Ar tokens to me, you can click the button below.
+
               </p>
               <div className="flex flex-wrap gap-2 pt-4">
-                <Badge>React</Badge>
-                <Badge>TypeScript</Badge>
-                <Badge>Next.js</Badge>
+                <a href="https://network-portal.app/#/gateways/vOrKy_8JvhhIxzWj7fe9E59AGKVi4Jb6YfgauAvCvxU" target="_blank"><Badge>Ilay Bilge Gateaway</Badge></a>
               </div>
             </CardContent>
           </Card>
 
           <Card className="glass hover:scale-105 transition-all duration-300">
             <CardHeader>
-              <CardTitle>Frontend Geliştirici</CardTitle>
+              <CardTitle>Others</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground mb-4">2018 - 2020</p>
+              <p className="text-sm text-muted-foreground mb-4">2022 - Present</p>
               <p>
-                Kullanıcı arayüzleri geliştirme, responsive tasarım ve
-                cross-browser uyumluluk konularında çalıştım.
+                I have run many nodes  (Aptos Devnet, Bundlr, Crowd Control, Exorde, Empower Chain, Forta, GNO Land, Iron Fish, Humanode, Inery, Kujira, Massa, 
+                Minima, Newrl, NuLink, Paloma, QuickSilver, Razor, Rebus, Sei, StaFi, Stratos (Trapos-4 & SDS), Subspace, Teritori, Wormholes) and participate 
+                the platform testnets.
               </p>
               <div className="flex flex-wrap gap-2 pt-4">
-                <Badge>JavaScript</Badge>
-                <Badge>Vue.js</Badge>
-                <Badge>CSS3</Badge>
+                <Badge>Arweave</Badge>
+                <Badge>Cosmos</Badge>
+                <Badge>EVM</Badge>
               </div>
             </CardContent>
           </Card>
