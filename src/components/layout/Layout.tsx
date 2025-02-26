@@ -37,21 +37,21 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-6">
             <a href="#hakkimda" className="text-foreground hover:text-primary transition-colors">
-              Hakkımda
+              About
             </a>
             <a href="#tecrubeler" className="text-foreground hover:text-primary transition-colors">
-              Tecrübeler
+              Experiences
             </a>
           </div>
           <div className="flex items-center space-x-4">
             <div className="flex space-x-4 mr-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              <a href="https://github.com/ilaybilge" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              <a href="https://linkedin.com/in/ilaybilge" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              <a href="https://twitter.com/bilgechain" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
@@ -70,18 +70,18 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center space-y-4">
             <div className="flex space-x-6">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              <a href="https://github.com/ilaybilge" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              <a href="https://linkedin.com/in/ilaybilge" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              <a href="https://twitter.com/bilgechain" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 <Twitter className="h-6 w-6" />
               </a>
             </div>
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Tüm hakları saklıdır.
+              © {new Date().getFullYear()} All rights reserved.
             </p>
           </div>
         </div>
